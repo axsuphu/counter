@@ -1,0 +1,39 @@
+body {
+  color: lightgrey;
+  background-color: #16262e;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.card-body {
+  background-color: #2e4756;
+  box-shadow: 3px 3px 3px #b2beb5;
+}
+
+.jumbotron {
+  background-color: #2e4756;
+  padding: 40px 20px 40px 20px;
+  box-shadow: 5px 4px 4px #b2beb5;
+}
+
+button {
+  background-color: #9fa2b2;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px lightgrey;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
